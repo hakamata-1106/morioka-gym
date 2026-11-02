@@ -1,1 +1,35 @@
 @charset "utf-8";
+/*フォントサイズは基本8の倍数*/
+
+header{
+    height: 80px;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+a{
+    color: white;
+    width: 17%;
+    text-decoration: none;
+}
+
+.top-page{
+    a{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    img{
+        width: 80px;
+    }
+    p{
+        flex: 1;
+        margin: 0;
+    }
+    font-size: 24px;
+    width: 36%;
+}
