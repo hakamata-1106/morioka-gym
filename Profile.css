@@ -1,1 +1,83 @@
 @charset "utf-8";
+
+.profile-title {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('/gym2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.title-text {
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    margin: 20px auto;
+}
+
+.profile-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 450px;
+}
+
+.profile-content img {
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 20px 20px 0 0;
+}   
+
+.profile-content .name {
+    font-weight: bold;
+    margin: 0 auto;
+    font-size: 32px;
+    text-align: center;
+}
+
+.profile-content .position {
+    font-weight: bold;
+    font-size: 18px;  /* ここのフォントサイズ8の倍数だと物足りないので18で調整してます */
+    text-align: center;
+    color: #1577ff;
+    margin: 0 auto;
+}
+
+.profile-details {
+    padding: 5px;
+    text-align: center;
+}
+
+.profile-details p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.profile-details ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.profile-details .program {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.profile-details ul li {
+    border-radius: 20px;
+}
+
+.profile-all {
+    padding: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    gap: 15px;
+}
