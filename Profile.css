@@ -2,7 +2,7 @@
 
 .profile-title {
     background-color: rgba(0, 0, 0, 0.5);
-    background-image: url('/gym2.jpg');
+    background-image: url('Profile_img/gym2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -71,6 +71,12 @@
     text-align: center;
 }
 
+.profile-details .message {
+    font-size: 16px;
+    text-align: center;
+    padding: 0 10px 0 10px;
+}
+
 .profile-details ul li {
     border-radius: 20px;
 }
@@ -80,4 +86,25 @@
     justify-content: space-evenly;
     display: flex;
     gap: 15px;
+}
+
+.program-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.program-list li {
+    padding: 0.35rem 0.5rem;
+    background-color: #eff6ff;
+    color: #1577ff;
+    border: 1px solid #1577ff;
+    border-radius: 9999px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    display: flex;
 }
