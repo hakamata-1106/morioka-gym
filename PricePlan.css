@@ -8,3 +8,77 @@ body{
     padding: 0;
     background-color: white;
 }
+
+.top-item {
+    position: relative;
+    width: 100%;
+
+}
+.top-item img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block; 
+    background-color: #111;
+    filter:brightness(0.6);
+}
+
+.top-text {
+ position: absolute;
+    top: 100px;        
+    width: 100%;  
+    text-align: center; 
+    color: #ffffff;
+    font-weight: bold;
+}
+.top-text h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.top-text p {
+    font-size: 24px;
+    margin: 0;
+}
+.line {
+    text-decoration: underline solid gold;
+    text-align: center;
+    padding-bottom: 8px;
+    font-weight: bold;
+    font-size: 42px;
+}
+.gold-img img{
+    position: relative;
+    margin-right: 30px;
+}
+.gold-img-text{
+    position: absolute;
+}
+.line {
+  text-decoration: underline solid #D4AF37;
+}
+.gold-img {
+  position: relative;    
+  width: fit-content;  
+  margin-left: auto;      
+}
+.gold-img img {
+  display: block;        
+  width: 200px;      
+}
+.gold-img-text {
+  position: absolute;     
+  top: 65px;  
+  width: 100%;              
+  text-align: center;       
+  font-weight: bold;  
+  justify-content: center;      
+  align-items: center;
+  color: #ffffff;
+  padding-right: 20px;
+}
+.gold-big{
+    text-align: center;
+    font-weight: bold;
+    color: #D4AF37;
+    font-size: 48px;
+}
