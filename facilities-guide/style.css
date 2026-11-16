@@ -1,0 +1,71 @@
+@charset "utf-8";
+/*フォントサイズは基本8の倍数*/
+
+header{
+    height: 80px;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.top-page{
+    a{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    img{
+        width: 80px;
+    }
+    p{
+        flex: 1;
+        margin: 0;
+    }
+    font-size: 24px;
+    width: 36%;
+}
+
+.sub-page-list{
+    width: 17%;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-page{
+    position: relative;
+    display: inline-block;
+    
+}
+
+.sub-page::after{
+    position: absolute;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    bottom: -1px;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s;
+}
+
+.sub-page:hover::after{
+    transform: scaleX(1);
+}
+
+footer{
+    height: 40px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
