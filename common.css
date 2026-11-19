@@ -33,12 +33,25 @@ header li {
 header a {
     color: #d4bf00d8;
     text-decoration: none;
+    background-position: bottom right;
+    background-size: 0 2px;
+    padding-bottom: 2px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(#fff, #fff);
+    transition: background-size 0.3s;
+}
+
+header a:hover {
+    color: #ffffff;
+    background-position: left bottom;
+    background-size: 100% 2px;
 }
 
 header .header-nemu {
     display: flex;
     align-items: center;
     text-align: right;
+    padding-right: 30px;
 }   
 
 footer {
