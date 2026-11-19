@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+/* * {
+    outline: 2px solid red;  
+} */
+
+header {
+    background-color: #000000;
+    font-size: 18px;
+    /* ↑ここのフォントサイズ8の倍数だとヘッダーの縦幅がおかしくなるので18で調整してます */
+    color: #d4bf00d8;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .header-logo {
+    padding-left: 40px;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header li {
+    margin-right: 20px;
+    display: inline;
+}
+
+header a {
+    color: #d4bf00d8;
+    text-decoration: none;
+    background-position: bottom right;
+    background-size: 0 2px;
+    padding-bottom: 2px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(#fff, #fff);
+    transition: background-size 0.3s;
+}
+
+header a:hover {
+    color: #ffffff;
+    background-position: left bottom;
+    background-size: 100% 2px;
+}
+
+header .header-nemu {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    padding-right: 30px;
+}   
+
+footer {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #d4bf00d8;
+}
