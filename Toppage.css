@@ -32,12 +32,10 @@ body {
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* ど真ん中に調整 */
-    color: blue;
+    color: white;
     font-size: 80px;
     font-weight: bold;
-    background-color: silver;
-
+    text-shadow: 5px 6px 7px rgba(0, 0, 0, 0.5);
 }
 
 .introduction {
