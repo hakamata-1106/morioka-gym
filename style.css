@@ -2,7 +2,7 @@
 /*フォントサイズは基本8の倍数*/
 
 header{
-    height: 80px;
+    height: 60px;
     background-color: black;
     padding: 20px;
     display: flex;
