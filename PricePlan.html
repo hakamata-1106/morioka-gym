@@ -4,12 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="PricePlan.css">
+    <link rel="stylesheet" href="style.css">
     <title>料金プラン</title>
 </head>
 <body id="PricePlan">
+      <header>
+        <div class="top-page">
+            <a href="index.html"><img src="morioka.png" alt="盛岡市"><p>MORIOKAGYM</p></a>
+        </div>
+        <div class="sub-page-list"><a href="" class="sub-page">プログラム</a></div>
+        <div class="sub-page-list"><a href="Profile.html" class="sub-page">トレーナー紹介</a></div>
+        <div class="sub-page-list"><a href="PricePlan.html" class="sub-page">料金プラン</a></div>
+        <div class="sub-page-list"><a href="#" class="sub-page">施設の案内</a></div>
+        <div class="sub-page-list"><a href="question.html" class="sub-page">よくある質問</a></div>
+    </header>
     <section class="top">
         <div class="top-item">
-            <img src="img/PricePlan_danberu.jpg" alt="トップの背景画像">
+            <img src="/img/PricePlanimg/PricePlan_danberu.jpg" alt="トップの背景画像">
         <div class="top-text">
     <h1>盛岡ジムの料金・プラン・コース等</h1>
     <p>全コースにて入会金無料</p>
@@ -18,13 +29,13 @@
 <section class="free-plan">
     <h2 class="line">無料体験</h2><!--.line {
   text-decoration: underline solid gold;
-}出下線を引く-->
+}で下線を引く-->
 <div class="gold-img">
-<img src="img/PricePlan_hukidasi.png" alt="">
+<img src="img/PricePlanimg/PricePlan_hukidasi.png" alt="">
 <p class="gold-img-text">初めての方はこちら</p>
 </div>
 <p class="gold-big">無料カウンセリング・体験トレーニング</p>
-<table border="1">
+<table class="table price-table">
     <thead>
         <tr>
             <th>項目</th>
@@ -42,15 +53,15 @@
         </tr>
     </tbody>
 </table>
-<p>入会金0円!           ✓手ぶらで入店OK!
+<p class="normal-text">✅入会金0円!           ✅手ぶらで入店OK!
 </p>
 </section>
 <section class="not-free-plan">
    <h2 class="line">料金・プラン一覧</h2>
    <p class="gold-big">回数券</p>
-   <p>通うペースを自由に決めれらるチケット制。<br>
+   <p class="normal-text">通うペースを自由に決めれらるチケット制。<br>
 忙しい方や定期的に通いたい方にお勧めしています。</p>
-<table border="1">
+<table class="table price-table">
     <thead>
         <tr>
             <th>コース種類</th>
@@ -81,9 +92,9 @@
     </tbody>
 </table>
    <p class="gold-big">ライフプラニングコース</p>
-   <p>食事指導だけでなく、生活習慣から見直すフルサポート。<br>
+   <p class="normal-text">食事指導だけでなく、生活習慣から見直すフルサポート。<br>
 食事もセットでアプローチしたい方にお勧めです。</p>
-<table border="1">
+<table class="table price-table">
     <thead>
         <tr>
             <th>コース種類</th>
@@ -97,7 +108,7 @@
             <td>ライフプランニング16</td>
             <td>16回/2か月</td>
             <td>290,400円(税込)</td>
-            <td class="gold">パーソナル食事管理2か月<br>アフタープロテイン<br>ロッカー無料/td>
+            <td class="gold">パーソナル食事管理2か月<br>アフタープロテイン<br>ロッカー無料</td>
         </tr>
         <tr>
             <td>ライフプランニング24</td>
@@ -109,9 +120,9 @@
 </table>
 <p class="gold">コース終了後は<br>▼</p>
   <p class="gold-big">継続コース</p>
-   <p>回数券orライフプランニング終了後は、「月額制」で通いやすい「マンスリープラン」をご用意。<br>
+   <p class="normal-text">回数券orライフプランニング終了後は、「月額制」で通いやすい「マンスリープラン」をご用意。<br>
 理想の体を維持しながらトレーニングを習慣化していくために、無理なく継続できるプランです。</p>
-<table border="1">
+<table class="table price-table">
     <thead>
         <tr>
             <th>コース種類</th>
@@ -125,7 +136,7 @@
             <td>マンスリー2</td>
             <td>2回/月</td>
             <td>17,600円(税込)</td>
-            <td class="gold">アフタープロテイン/td>
+            <td class="gold">アフタープロテイン</td>
         </tr>
         <tr>
             <td>マンスリー4</td>
@@ -145,22 +156,22 @@
 </section>
 <section class="servise">
      <h2 class="line">サービス内容</h2>
-     <p>morioka-gymがお客様にご提供するサービス。清潔に、お手軽に、そして確実にボディメイクができる内容となっております。</p>
+     <p class="normal-text">morioka-gymがお客様にご提供するサービス。清潔に、お手軽に、そして確実にボディメイクができる内容となっております。</p>
      <div class="servise-container">
-     <div servise-detail>
-        <img src="img/PricePlan_training.jpg" alt="training">
-        <p class="gold">パーソナルトレーニング</p>
-        <p>トレーナーがマンツーマンでパーソナルトレーニングを実地。[一回：約50分]のオリジナルトレーニングメニューで効率と成果を実感。</p>
+     <div class="servise-detail">
+        <img src="img/PricePlanimg/PricePlan_training.jpg" alt="training">
+        <p class="gold-1">パーソナルトレーニング</p>
+        <p class="normal-text">トレーナーがマンツーマンでパーソナルトレーニングを実地。[一回：約50分]のオリジナルトレーニングメニューで効率と成果を実感。</p>
      </div>
-      <div servise-detail>
-        <img src="img/PricePlan_advice.jpg" alt="adivise">
-        <p class="gold">食事アドバイス</p>
-        <p>トレーナーによる食事のアドバイス。ボディメイクの実績のあるスタッフが食生活をアドバイスいたします。</p>
+      <div class="servise-detail">
+        <img src="img/PricePlanimg/PricePlan_advice.jpg" alt="adivise">
+        <p class="gold-1">食事アドバイス</p>
+        <p class="normal-text">トレーナーによる食事のアドバイス。ボディメイクの実績のあるスタッフが食生活をアドバイスいたします。</p>
      </div>
-      <div servise-detail>
-        <img src="img/PricePlan_rental wear.jpg" alt="rental wear">
-        <p class="gold">レンタルウェア無料貸出</p>
-        <p>お客様にはできる限り手ぶらでお越しいただけるよう、レンタルウェア・タオルの無料貸し出しをしております。</p>
+      <div class="servise-detail">
+        <img src="img/PricePlanimg/PricePlan_rental wear.jpg" alt="rental wear">
+        <p class="gold-1">レンタルウェア無料貸出</p>
+        <p class="normal-text">お客様にはできる限り手ぶらでお越しいただけるよう、レンタルウェア・タオルの無料貸し出しをしております。</p>
      </div>
      </div>
 

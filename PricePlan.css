@@ -12,7 +12,6 @@ body{
 .top-item {
     position: relative;
     width: 100%;
-
 }
 .top-item img {
     width: 100%;
@@ -22,10 +21,18 @@ body{
     background-color: #111;
     filter:brightness(0.6);
 }
+.normal-text{
+    text-align: center;
+    font-size: 24px;
+}
+.gold{
+    color: #D4AF37;
+    text-align: center;
+}
 
 .top-text {
  position: absolute;
-    top: 100px;        
+  top: 100px;      
     width: 100%;  
     text-align: center; 
     color: #ffffff;
@@ -37,7 +44,7 @@ body{
 }
 .top-text p {
     font-size: 24px;
-    margin: 0;
+   
 }
 .line {
     text-decoration: underline solid gold;
@@ -49,30 +56,26 @@ body{
 .gold-img img{
     position: relative;
     margin-right: 30px;
-}
-.gold-img-text{
-    position: absolute;
+      display: block;        
+  width: 200px;
 }
 .line {
   text-decoration: underline solid #D4AF37;
 }
 .gold-img {
   position: relative;    
-  width: fit-content;  
-  margin-left: auto;      
+    width: fit-content;
+  margin-left: auto;   
+  margin-bottom: -100px;   
 }
-.gold-img img {
-  display: block;        
-  width: 200px;      
-}
+
 .gold-img-text {
   position: absolute;     
-  top: 65px;  
+ top: 65px;  
   width: 100%;              
   text-align: center;       
   font-weight: bold;  
-  justify-content: center;      
-  align-items: center;
+    justify-content: center;      
   color: #ffffff;
   padding-right: 20px;
 }
@@ -81,4 +84,67 @@ body{
     font-weight: bold;
     color: #D4AF37;
     font-size: 48px;
+}
+  .table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    color: #333333;
+}
+
+.price-table th {
+    background-color: #0d0d0d;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 18px 24px;
+    border-bottom: 3px solid #444444;
+    text-align: center;
+}
+
+
+.price-table td {
+    padding: 24px 32px;
+    font-weight: bold;
+    font-size: 16px;
+    border: 3px solid #dddddd; 
+    text-align: center;
+}
+.price-table tr:first-child td{
+    background-color:bisque;
+}
+.onother-plan{
+    background-color:#f5f5f5;
+    font-size: 24px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+}
+.servise{
+    background-color:#dcdcdc;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 3%;
+    
+    
+}
+.servise-detail{
+    background-color: #fff;
+    max-width: 33%;
+}
+.servise-container{
+display: flex;
+gap: 30px;
+margin: auto 30px;
+
+}
+.servise-container img{
+    max-width: 100%;
+
+}
+.gold-1{
+    font-size: 24px;
+    font-weight: bold;
+    color: #D4AF37;
 }
